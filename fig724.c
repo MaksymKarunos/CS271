@@ -1,7 +1,8 @@
  // Fig. 7.24: fig07_24.c
  // Card shuffling and dealing.
- #include <stdio.h>
- #include <stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
  #define SUITS 4
  #define FACES 13
