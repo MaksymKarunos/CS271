@@ -10,11 +10,11 @@ int main()
    // demonstrate maximum with int values
    int int1, int2, int3;
 
-   cout << "Input three integer values: ";
+   cout << "Input minimum integer values: ";
    cin >> int1 >> int2 >> int3;
 
    // invoke int version of maximum
-   cout << "The maximum integer value is: "
+   cout << "The minimum integer value is: "
       << minimum( int1, int2, int3 );        
 
    // demonstrate maximum with double values
@@ -24,7 +24,7 @@ int main()
    cin >> double1 >> double2 >> double3;
 
    // invoke double version of maximum
-   cout << "The maximum double value is: "
+   cout << "The minimum double value is: "
       << minimum( double1, double2, double3 );
 
    // demonstrate maximum with char values
@@ -34,7 +34,7 @@ int main()
    cin >> char1 >> char2 >> char3;
 
    // invoke char version of maximum
-   cout << "The maximum character value is: "
+   cout << "The minimum character value is: "
       << minimum( char1, char2, char3 ) << endl;
 } 
 
