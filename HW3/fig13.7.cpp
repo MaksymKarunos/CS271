@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-#include "maximum.h" // include definition of function template maximum
+#include "minimum.h" // include definition of function template maximum
 
 int main()
 {
