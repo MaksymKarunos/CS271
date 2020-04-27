@@ -8,13 +8,13 @@
 void handle_sigint(int sig) 
 { 
     printf("Aborting signal %d\n", sig); 
-    abort()
+    exit()
 } 
   
 int main() 
 { 
     signal(SIGINT, handle_sigint); 
     while (1) 
-    print("Hello World"); 
+    printf(%s,"Hello World"); 
     return 0; 
 } 
