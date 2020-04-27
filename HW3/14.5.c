@@ -7,12 +7,14 @@
 // Ctrl-C at keyboard 
 void handle_sigint(int sig) 
 { 
-    printf("Caught signal %d\n", sig); 
+    printf("Aborting signal %d\n", sig); 
+    abort()
 } 
   
 int main() 
 { 
     signal(SIGINT, handle_sigint); 
-    while (1) ; 
+    while (1) 
+    print("Hello World"); 
     return 0; 
 } 
